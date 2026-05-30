@@ -1,0 +1,53 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #110a0b;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Custom Webkit scrollbar to fit dark dashboard theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #110a0b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d1c1f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3d2629;
+}
+
+/* Glassmorphism card utility */
+.glass-card {
+  background: rgba(26, 16, 18, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(194, 155, 56, 0.15);
+}
+
+.glass-input {
+  background: rgba(17, 10, 11, 0.65);
+  border: 1px solid rgba(194, 155, 56, 0.15);
+  color: #f8fafc;
+  transition: all 0.2s ease;
+}
+
+.glass-input:focus {
+  border-color: #c29b38;
+  box-shadow: 0 0 10px rgba(194, 155, 56, 0.25);
+  outline: none;
+}

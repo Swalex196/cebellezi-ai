@@ -1,0 +1,28 @@
+services:
+  # ─── BACKEND (Node.js Express API) ───
+  - type: web
+    name: cebellezi-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node src/app.js
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MONGODB_URI
+        sync: false   # Set manually in Render dashboard
+      - key: JWT_SECRET
+        sync: false   # Set manually in Render dashboard
+      - key: PYTHON_OCR_URL
+        sync: false   # Set to scanner service URL after deploying
+
+  # ─── SCANNER AGENT (Python FastAPI) ───
+  - type: web
+    name: cebellezi-scanner
+    runtime: python
+    rootDir: scanner_agent
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PORT
+        value: 8000

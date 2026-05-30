@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HxV+REluElE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\osint-vulnerability-dashboard\\scanner_agent\\win_ocr_app\\win_ocr_app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+  ],
+  "logs": []
+}

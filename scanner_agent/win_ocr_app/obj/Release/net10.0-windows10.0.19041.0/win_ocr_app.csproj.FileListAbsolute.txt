@@ -1,0 +1,17 @@
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\bin\Release\net10.0-windows10.0.19041.0\win_ocr_app.exe
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\bin\Release\net10.0-windows10.0.19041.0\win_ocr_app.deps.json
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\bin\Release\net10.0-windows10.0.19041.0\win_ocr_app.runtimeconfig.json
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\bin\Release\net10.0-windows10.0.19041.0\win_ocr_app.dll
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\bin\Release\net10.0-windows10.0.19041.0\win_ocr_app.pdb
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\bin\Release\net10.0-windows10.0.19041.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\bin\Release\net10.0-windows10.0.19041.0\WinRT.Runtime.dll
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_app.AssemblyInfoInputs.cache
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_app.AssemblyInfo.cs
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_app.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_.DC28102E.Up2Date
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_app.dll
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\refint\win_ocr_app.dll
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_app.pdb
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\win_ocr_app.genruntimeconfig.cache
+C:\Users\ASUS\osint-vulnerability-dashboard\scanner_agent\win_ocr_app\obj\Release\net10.0-windows10.0.19041.0\ref\win_ocr_app.dll
