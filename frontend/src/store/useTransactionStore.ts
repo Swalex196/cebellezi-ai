@@ -49,7 +49,7 @@ interface TransactionState {
 const isBrowser = typeof window !== 'undefined';
 const hostname = isBrowser ? window.location.hostname : '';
 const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
-const API_BASE_URL = isLocalhost ? 'http://127.0.0.1:5000' : 'https://cebellazi-ai.onrender.com';
+const API_BASE_URL = isLocalhost ? 'http://127.0.0.1:5000' : 'https://cebellezi-ai.onrender.com';
 const API_URL = `${API_BASE_URL}/api`;
 
 export const useTransactionStore = create<TransactionState>((set, get) => ({
