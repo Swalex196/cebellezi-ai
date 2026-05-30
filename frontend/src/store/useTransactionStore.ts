@@ -46,7 +46,8 @@ interface TransactionState {
   deleteDebt: (id: string) => Promise<boolean>;
 }
 
-const API_URL = 'http://127.0.0.1:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5000';
+const API_URL = `${API_BASE_URL}/api`;
 
 export const useTransactionStore = create<TransactionState>((set, get) => ({
   transactions: [],

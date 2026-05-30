@@ -26,6 +26,8 @@ import {
   ArrowUpCircle,
   LayoutDashboard
 } from 'lucide-react';
+
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5000';
 import {
   ResponsiveContainer,
   AreaChart,
@@ -116,7 +118,7 @@ export const Dashboard: React.FC = () => {
   // Configure Socket.io real-time connection
   useEffect(() => {
     if (user) {
-      const socket = io('http://127.0.0.1:5000');
+      const socket = io(API_BASE_URL);
       socket.emit('join', user._id);
 
       socket.on('transaction_processed', (payload: { success: boolean; message: string; data: Transaction }) => {
@@ -753,7 +755,7 @@ export const Dashboard: React.FC = () => {
                                       {tx.receiptUrl && (
                                         <div>
                                           <h5 className="font-bold text-white mb-1.5 text-xs">🖼️ Orijinal Fiş Görseli</h5>
-                                          <a href={`http://127.0.0.1:5000${tx.receiptUrl}`} target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline text-[11px] font-semibold">
+                                          <a href={`${API_BASE_URL}${tx.receiptUrl}`} target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline text-[11px] font-semibold">
                                             Dosyayı Ayrı Pencerede Aç ↗
                                           </a>
                                         </div>
