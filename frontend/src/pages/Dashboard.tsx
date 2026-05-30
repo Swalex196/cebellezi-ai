@@ -27,7 +27,11 @@ import {
   LayoutDashboard
 } from 'lucide-react';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5000';
+const isBrowser = typeof window !== 'undefined';
+const hostname = isBrowser ? window.location.hostname : '';
+const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
+const API_BASE_URL = isLocalhost ? 'http://127.0.0.1:5000' : 'https://cebellazi-ai.onrender.com';
+
 import {
   ResponsiveContainer,
   AreaChart,
@@ -40,6 +44,11 @@ import {
   Cell,
   Legend
 } from 'recharts';
+
+const isBrowser = typeof window !== 'undefined';
+const hostname = isBrowser ? window.location.hostname : '';
+const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
+const API_BASE_URL = isLocalhost ? 'http://127.0.0.1:5000' : 'https://cebellazi-ai.onrender.com';
 
 type TabType = 'dashboard' | 'debts';
 
